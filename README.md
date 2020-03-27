@@ -1,5 +1,11 @@
-queries :
+# GraphQL API Server CRUD using Express Tutorial
 
+Youtube :
+[https://youtu.be/Gg8ls8YcYq4](https://youtu.be/Gg8ls8YcYq4)
+
+Queries :
+
+```
 mutation createPost(
   $input: PostInput
 ) {
@@ -11,7 +17,8 @@ mutation createPost(
     content
   }
 }
-
+```
+```
 query getPosts {
   getPosts {
     id
@@ -19,7 +26,8 @@ query getPosts {
     content
   }
 }
-
+```
+```
 query getPost(
   $id: ID!
 ) {
@@ -31,7 +39,8 @@ query getPost(
     content
   }
 }
-
+```
+```
 mutation updatePost(
   $id: ID!
   $input: PostInput
@@ -45,3 +54,4 @@ mutation updatePost(
     content
   }
 }
+```
