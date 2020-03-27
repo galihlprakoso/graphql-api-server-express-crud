@@ -1,0 +1,18 @@
+{
+  "name": "graphql-server-express-crud",
+  "version": "1.0.0",
+  "description": "Simple GraphQL Server CRUD with Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  }
+}
